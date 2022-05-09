@@ -2,7 +2,7 @@ import * as React from "react"
 import Header from "./header"
 //import Footer from "./footer"
 import Footer from '../components/Common/Footer/footer'
-import Proposal from '../components/Common/proposal/proposal'
+import Proposal from "../components/Common/proposal/proposal"
 import Head from "./head"
 import "../styles.css"
 
