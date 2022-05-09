@@ -12,6 +12,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    env:
+      WPGRAPHQL_URL: 'https://das4.azurewebsites.net/graphql'
 
     steps:
       - uses: actions/checkout@v2
