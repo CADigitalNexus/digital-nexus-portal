@@ -15,13 +15,11 @@ import AdbIcon from '@mui/icons-material/Adb';
 import Grid from '@mui/material/Grid';
 import ButtonGroup from '@mui/material/ButtonGroup'
 
-const pages = ['About', 'Resources', 'Events', 'Solutions', 'Learn', 'Contact'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+
 const resources = ['Queries', 'WYWM', 'etc']
 const events = ['Conferences', 'Training', 'blah blah']
 const solutions = ['Dashboards', 'Apps', 'etc']
 const learning = ['Policy', 'Data Dictionaries', 'etc']
-
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
