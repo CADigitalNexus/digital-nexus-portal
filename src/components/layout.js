@@ -10,7 +10,6 @@ const Layout = (props) => {
   return (
     <>
       <Head {...props} />
-      <Header />
       <Navbar />
       {props.children}
       <Footer />
