@@ -4,6 +4,9 @@ import Layout from "../components/layout"
 import * as sections from "../components/sections"
 import Fallback from "../components/fallback"
 
+//Styles
+import * as styles from "./index.module.css"
+
 export default function Homepage(props) {
   const { homepage } = props.data
 
@@ -43,3 +46,5 @@ export const query = graphql`
     }
   }
 `
+//export const pageQuery = graphql 'slideShow:'
+

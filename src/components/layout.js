@@ -1,22 +1,25 @@
 import * as React from "react"
-import Header from "./header"
-//import Footer from "./footer"
-import Footer from '../components/Common/Footer/footer'
-import Card from '@mui/material/Card';
-import Grid from '../components/Common/Grid/Grid'
-import Head from "./head"
-import "../styles.css"
+//import Header from "../components/Common/header"
+import Footer from "../components/Common/footer"
+import Grid from "../components/Common/grid"
+import Navbar from "../components/Common/navBar"
+import Carousel from "../components/Common/carousel"
+import Paper from "../components/Common/paper"
+
+// Styles
+import "../components/Common/styles/reset.css"
+import "../components/Common/styles/accessibility.css"
+import "../components/Common/styles/global.module.css"
+import "../components/Common/fonts/fonts.css"
+import * as styles from "./layout.module.css"
 
 const Layout = (props) => {
   return (
     <>
-      <Head {...props} />
-      <Header />
-      {props.children}
-      
-      <Grid container spacing={6}>
-      </Grid>
-      
+      <Navbar />
+      <Carousel />
+      <Grid />
+      <Paper />
       <Footer />
     </>
   )
